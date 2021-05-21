@@ -19,6 +19,10 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (!isTaskRoot()) {
+            this.finish();
+            return;
+        }
         setContentView(R.layout.activity_splash);
 
         Window window = getWindow();
