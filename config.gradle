@@ -54,6 +54,7 @@ ext {
             "picasso"                  : "com.squareup.picasso:picasso:2.5.2",
 
             //view
+            "BottomBarLayout"          : "com.github.chaychan:BottomBarLayout:1.2.1",
             "autolayout"               : "com.zhy:autolayout:1.4.5",
             "butterknife"              : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
             "butterknife-compiler"     : "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
@@ -76,6 +77,7 @@ ext {
             "rxerrorhandler2"          : "me.jessyan:rxerrorhandler:2.1.1",
 
             //tools
+            "utilcode"                 : "com.blankj:utilcode:1.30.0",
             "dagger2"                  : "com.google.dagger:dagger:${version["dagger2SdkVersion"]}",
             "dagger2-android"          : "com.google.dagger:dagger-android:${version["dagger2SdkVersion"]}",
             "dagger2-android-support"  : "com.google.dagger:dagger-android-support:${version["dagger2SdkVersion"]}",
