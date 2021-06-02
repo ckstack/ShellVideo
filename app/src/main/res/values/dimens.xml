@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="img_logo_size">130dp</dimen>
-    <dimen name="app_name_size">26sp</dimen>
+    <dimen name="app_name_text">26sp</dimen>
     <dimen name="app_name_margin">200dp</dimen>
+    <dimen name="nav_text">8sp</dimen>
 </resources>

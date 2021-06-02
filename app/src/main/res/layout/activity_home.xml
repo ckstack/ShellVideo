@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".ui.HomeActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
-</RelativeLayout>
+    <com.chaychan.library.BottomBarLayout
+        android:id="@+id/bbl_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <com.chaychan.library.BottomBarItem
+            android:id="@+id/bbi_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/home_normal"
+            app:iconSelected="@drawable/home_selected"
+            app:itemText="@string/nav_home"
+            app:itemTextSize="@dimen/nav_text"
+            app:textColorNormal="@color/nav_text_normal"
+            app:textColorSelected="@color/nav_text_selected" />
+
+        <com.chaychan.library.BottomBarItem
+            android:id="@+id/bbi_live"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/live_normal"
+            app:iconSelected="@drawable/live_selected"
+            app:itemText="@string/nav_live"
+            app:itemTextSize="@dimen/nav_text"
+            app:textColorNormal="@color/nav_text_normal"
+            app:textColorSelected="@color/nav_text_selected" />
+
+        <com.chaychan.library.BottomBarItem
+            android:id="@+id/bbi_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/user_normal"
+            app:iconSelected="@drawable/user_selected"
+            app:itemText="@string/nav_user"
+            app:itemTextSize="@dimen/nav_text"
+            app:textColorNormal="@color/nav_text_normal"
+            app:textColorSelected="@color/nav_text_selected" />
+
+    </com.chaychan.library.BottomBarLayout>
+
+</LinearLayout>
