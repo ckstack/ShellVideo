@@ -15,7 +15,7 @@ ext {
             retrofitSdkVersion      : "2.7.2",
             dagger2SdkVersion       : "2.26",
             glideSdkVersion         : "4.11.0",
-            butterknifeSdkVersion   : "10.2.1",
+            butterknifeSdkVersion   : "8.8.1",
             rxlifecycleSdkVersion   : "1.0",
             rxlifecycle2SdkVersion  : "2.2.2",
             espressoSdkVersion      : "3.0.2",
