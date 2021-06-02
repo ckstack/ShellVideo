@@ -1,9 +1,11 @@
-package com.mixstack.shellvideo;
+package com.mixstack.shellvideo.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
+
+import com.mixstack.shellvideo.R;
 
 public class HomeActivity extends AppCompatActivity {
 

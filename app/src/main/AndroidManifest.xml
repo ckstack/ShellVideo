@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name=".ui.HomeActivity"
             android:launchMode="singleTask" />
     </application>
 

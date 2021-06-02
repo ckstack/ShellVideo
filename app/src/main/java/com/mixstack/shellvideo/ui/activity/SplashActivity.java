@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 
-import com.mixstack.shellvideo.HomeActivity;
+import com.mixstack.shellvideo.ui.HomeActivity;
 import com.mixstack.shellvideo.R;
 
 public class SplashActivity extends AppCompatActivity {
